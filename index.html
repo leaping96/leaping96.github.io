@@ -41,8 +41,11 @@
             <div class="container">
                 <div class="masthead-heading text-uppercase">An Chang hee</div>
                 <div class="masthead-subheading">leaping96@ajou.ac.kr</div>
-                <h5 class="section-subheading ">아주대학교 소프트웨어학과 재학중인 안창희입니다. <br><br> 웹프로그래밍에 관심이 있고 백엔드 개발자 취업을 위해 준비중입니다.</h5>
-                <br>
+                <h5 class="section-subheading ">
+                    아주대학교 소프트웨어학과 재학중인 안창희입니다. <br><br> 
+                    웹프로그래밍에 관심이 있고 백엔드 개발자 취업을 위해 준비중입니다.
+                </h5>
+                    <br>
                 <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#tech">더보기</a>
             </div>
         </header>
@@ -105,7 +108,7 @@
                 </div>
             </div>
         </section>
-        <!-- 프로젝트 섹션 Grid-->
+        <!-- 프로젝트 썸네일 섹션 Grid-->
         <section class="page-section bg-light" id="projects">
             <div class="container">
                 <div class="text-center">
@@ -143,6 +146,23 @@
                                 <div class="portfolio-caption-heading">자동매크로</div>
                                 <div class="portfolio-caption-subheading text-muted">
                                     #Python #크롤링 #산학연계 #현장실습 #pyautoGUI #ERP #bs4 #selenium
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 도로위험지수 기계학습 모듈 -->
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#projectModal11">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/projects/11-thumbnail.PNG" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">도로위험지수 기계학습 모듈</div>
+                                <div class="portfolio-caption-subheading text-muted">
+                                    #Python #SVM #Jupyter #도로교통공단
                                 </div>
                             </div>
                         </div>
@@ -283,23 +303,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- 도로위험지수 기계학습 모듈 -->
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#projectModal11">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/projects/11-thumbnail.PNG" alt="" />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">도로위험지수 기계학습 모듈</div>
-                                <div class="portfolio-caption-subheading text-muted">
-                                    #Python #SVM #Jupyter #도로교통공단
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    
                     <!-- 프로세스,스레드간 통신 -->
                     <div class="col-lg-4 col-sm-6">
                         <div class="portfolio-item">
@@ -540,13 +544,29 @@
                                 <div class="modal-body">
                                     <!-- Project Details Go Here-->
                                     <h2 class="text-uppercase">자료구조 실습내용 정리</h2>
-                                    <p class="item-intro text-muted">
-                                        
+                                    <p class="item">
+                                        <table border="1" bordercolor="black" width ="70%" height="100%" align = "center" >
+                                            <tr><!-- 첫번째 줄 시작 -->
+                                                <td style="color:coral;">구분</td>
+                                                <td>개인프로젝트</td>
+                                            </tr><!-- 첫번째 줄 끝 -->
+                                            <tr><!-- 두번째 줄 시작 -->
+                                                <td style="color:coral;">개발기간</td>
+                                                <td>3개월</td>
+                                            </tr><!-- 두번째 줄 끝 -->
+                                            <tr><!-- 두번째 줄 시작 -->
+                                                <td style="color:coral;">사용기술</td>
+                                                <td>
+                                                    Language: C <br>
+                                                    Github, Naver Blog
+                                                </td>
+                                            </tr><!-- 두번째 줄 끝 -->
+                                        </table>
                                     </p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/projects/1-img1.PNG" alt="" />
                                     
-                                    
-                                    <p>
+                                    <p class="item text-muted">
+                                        <h4 style="color:coral;">[개요]</h4>
+                                        <img class="img-fluid d-block mx-auto" src="assets/img/projects/1-img1.PNG" alt="" />
                                         편입 첫학기에 들었던 자료구조 과목의 정리노트이다.
                                         코딩실력이 한참 부족할 때지만, 나만의 작업물을 만들고 싶은 열망으로 시작했다. 
                                         각 주차별 코드는 깃허브에, 상세한 풀이과정은 네이버 블로그에 서술해 두었다.
@@ -554,19 +574,32 @@
                                         링크URL: 
                                         <a href="https://github.com/leaping96/c-datastructure">[Github]</a> 
                                         <a href="https://blog.naver.com/leaping19/221735237776">[Naver blog]</a> 
-                                        <hr style="border: solid 2px black;">
+                                    </p>
+                                    <p>
+                                        <h4 style="color:coral;">[개발내용]</h4>
                                         <img class="img-fluid d-block mx-auto" src="assets/img/projects/1-img2.PNG" alt="" />
+                                        개념을 익히는 문제들은 다음과같이 풀이과정이 남는다. 각 주차마다 1개에서 많게는
+                                        10개남짓의 문제가 과제로 출제되었다. 대부분 표의 빈칸에 문자를 채워넣거나,
+                                        자료구조를 그림으로 그려서 구현하는등의 문제였다. 나는 파워포인트를 사용해
+                                        풀이과정 이미지를 만들고 블로그에 글로써 서술해 풀이과정을 남겼다.
+                                        <img class="img-fluid d-block mx-auto" src="assets/img/projects/1-img3.PNG" alt="" />
+                                        중요한 개념을 배울때마다 각 주차에는 항상 코딩과제가 있었다. 코딩과제는 
+                                        대부분 교재의 코드에서 특정 부분의 기능을 향상하거나 또는 그 주차의 자료구조를
+                                        활용하여 간단한 동작을 하는 프로그램을 구현하는것이었다. 
+                                        <img class="img-fluid d-block mx-auto" src="assets/img/projects/1-img4.PNG" alt="" /> 
+                                        다음과같이 중간과정을 서술해야 하는 문제는 풀이가 매우 길어졌다(이하생략)
+                                    </p>    
+                                    <p>
+                                        <h4 style="color:coral;">[느낀점]</h4>
                                         수업이 점점 진행되면서 앞에서 배웠던 내용을 뒤에서도 써야할 때가 있었는데,
                                         그 때마다 강의노트나 교과서를 다시 보지 않고 내가 사용했던 코드나 풀이를 보면서
                                         많은 도움을 얻을 수 있었다.
-                                        <img class="img-fluid d-block mx-auto" src="assets/img/projects/1-img3.PNG" alt="" />
                                         나는 자료구조 수업을 듣기 전에 "생활코딩"에서 베포한 Web 강의를 듣고 html을 
                                         배웠었는데, 처음으로 블로그 포스팅을 하면서 웹 기반의 문서편집기가 가진 기능들이
                                         정말 대단하고 신기한 기능이 많다고 느꼈다.
                                         필요에 따라서 코드와 이미지, 글을 복합적으로 표현하고 스타일을 지정할수 있다는게
                                         내가 처음으로 컴퓨터 공학 공부를 시작하면서 프로그램의 원리에 대해 생각해보고
                                         감탄했던 순간이었다. 
-                                        <img class="img-fluid d-block mx-auto" src="assets/img/projects/1-img4.PNG" alt="" /> 
                                         특히 Web 기반의 문서는 언제 어디서나 접근이 가능해서, 내가 자료구조 기말고사를
                                         보러가는 동안에도 스마트폰으로 요약노트를 보며 공부할수 있다는게 혁신적이었다.
                                         <br><br>
@@ -576,12 +609,8 @@
                                         <br><br>
                                         첫 작품(?)이기에 많이 부족하고 어디 내놓기 부끄럽지만 한편으론 뿌듯하다.
                                     </p>
-                                    
 
-                                    <ul class="list-inline">
-                                        <li>Date: 2019.9 ~ 2019~12</li>
-                                        <li>Category: 전공실습</li>
-                                    </ul>
+                                    
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times mr-1"></i>
                                         Close Project
@@ -593,7 +622,7 @@
                 </div>
             </div>
         </div>
-        <!-- Modal 2-->
+        <!-- Modal 2: 자동매크로-->
         <div class="portfolio-modal modal fade" id="projectModal2" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -603,15 +632,112 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project Details Go Here-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/02-full.jpg" alt="" />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>Date: January 2020</li>
-                                        <li>Client: Explore</li>
-                                        <li>Category: Graphic Design</li>
-                                    </ul>
+                                    <h2 class="text-uppercase">자동 ERP 매크로</h2>
+                                    <p class="item">
+                                        <table border="1" bordercolor="black" width ="70%" height="100%" align = "center" >
+                                            <tr><!-- 첫번째 줄 시작 -->
+                                                <td style="color:coral;">구분</td>
+                                                <td>개인프로젝트(인턴)</td>
+                                            </tr><!-- 첫번째 줄 끝 -->
+                                            <tr><!-- 두번째 줄 시작 -->
+                                                <td style="color:coral;">개발기간</td>
+                                                <td>2개월</td>
+                                            </tr><!-- 두번째 줄 끝 -->
+                                            <tr><!-- 두번째 줄 시작 -->
+                                                <td style="color:coral;">사용기술</td>
+                                                <td>
+                                                    Language: Python <br>
+                                                    Module: selenium, beautifulsoup, pyautoGUI
+                                                </td>
+                                            </tr><!-- 두번째 줄 끝 -->
+                                            <tr>
+                                                <td style="color:white; background-color: red;">기타</td>
+                                                <td>
+                                                    산학 보안협약에 따라 private repository로 운용
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </p>
+                                    <p class="item text-muted">
+                                        <h4 style="color:coral;">[개요]</h4>
+                                        ERP 시스템의 발주 프로세스를 자동화하기 위한 매크로 프로그램이다.
+                                        <br><br>
+
+                                        <h4 style="color:coral;">[배경]</h4>
+                                        자사의 ERP 시스템의 중계자로서 고객이 주문을 요청하면 자사가 이를 확인하고 
+                                        ERP프로그램, 웹사이트를 통해 배송요청을 진행해야했다.
+                                        기존엔 고객사와 납품사의 ERP시스템이 다르기 때문에 연동하는 부분이 인력으로
+                                        이루어지고 있었다. 
+                                        따라서 매크로는 고객사 주문접수, 납품사 배송요청을 자동으로 연계하고자
+                                        설계되었다.
+                                    </p>
+                                    <p>
+                                        <h4 style="color:coral;">[개발내용]</h4>
+
+                                        매크로의 실행화면이다. Python이 설치된 환경의 컴퓨터에서 Cmd창을 통해 
+                                        실행된다.
+                                        <img class="img-fluid d-block mx-auto" src="assets/img/projects/2-img5.PNG" alt="" />
+                                    
+                                        매크로의 동작은 크게 3가지로 구분된다. 차례대로 다음과 같다. <br><br>
+                                        <h5 style="color: crimson;">
+                                            1. 오늘의 주문내역 가져오기(크롤링, txt파일에 쓰기)
+                                        </h5>
+                                        고객사는 물품을 요청한 주문신청들을 받아서 관리하는 홈페이지가 있다. 
+                                        이 홈페이지에서 selenium 모듈을 통해 하루치의 주문신청을 크롤링 한후 
+                                        txt파일에 쓰도록 구성했다. <br><br>
+                                        <div class="portfolio-caption text-muted">
+                                            <div class="portfolio-caption-heading">(고객사 A사의 홈페이지)</div>
+                                        </div>
+                                        <img class="img-fluid d-block mx-auto" src="assets/img/projects/2-img4.PNG" alt="" />
+                                        
+
+                                        
+                                        <h5 style="color: crimson;">
+                                            2. 주문내역에 따라 배송요청하기(크롤링, txt파일을 읽기) 
+                                        </h5>
+                                        이전 단계에서 저장해둔 txt파일을 읽어들여 납품사에 배송요청을 넣는부분이다.
+                                        <br><br>
+                                        웹페이지로 업무를 보는 X 납품사는 1단계와 동일하게 selenium 모듈을 사용했고,
+                                        페이지간 이동과 주문내용의 기입을 크롤링 기능으로 구현할 수 있었다.
+                                        <div class="portfolio-caption text-muted">
+                                            <div class="portfolio-caption-heading">(납품사 X사의 홈페이지)</div>
+                                        </div>
+                                        <img class="img-fluid d-block mx-auto" src="assets/img/projects/2-img1.PNG" alt="" />
+                                        ERP 프로그램으로 업무를 보는 Y 납품사는 기존의 웹 크롤링 기능을 사용할 수 
+                                        없었다. 나는 실현가능한 대안으로 이미지 인식과 키보드 제어를 활용하는 
+                                        pyautoGUI 모듈을 사용하기로 했고, 크롤러와 최대한 비슷하게 동작하도록
+                                        만들었다.
+                                        <div class="portfolio-caption text-muted">
+                                            <div class="portfolio-caption-heading">(납품사 Y사의 프로그램)</div>
+                                        </div>
+                                        <img class="img-fluid d-block mx-auto" src="assets/img/projects/2-img2.PNG" alt="" />
+                                        
+                                        
+                                        <h5 style="color: crimson;">3. 배송요청 확인서와 주문내역을 대조하여 기록남기기(더블체킹)</h5>
+                                        최종적으로 프로젝트의 기능검토를 받고나서, 기록을 검토하여
+                                        정상동작을 확인할 수 있도록 검수기능을 추가하라는 피드백을 받았다.
+                                        <br><br>아래는 해당 부분을 구현한 사진이다.<br>
+                                        실제 주문서와 처리기록을 대조하여 수량,물품코드,이름이 모두 동일하면 <성공>
+                                        이라고 기록하게끔 구현했다.
+                                        
+                                        <img class="img-fluid d-block mx-auto" src="assets/img/projects/2-img3.PNG" alt="" />
+                                        
+                                    </p>    
+                                    <p>
+                                        <h4 style="color:coral;">[도전적 이슈&느낀점]</h4>
+                                        내가 사용가능한 프로그래밍 언어가 C와 Java밖에 없는 상황에서 Python언어를 
+                                        처음으로 배워가며 시작했던 프로젝트이다. 업무로써 진행하는 첫 프로젝트인데 
+                                        새로운 언어를 공부하며 매주 발전된 결과를 내야 한다는것이 조금 부담도 되었던 
+                                        것 같다.
+                                        <br><br>
+                                        지금 돌이켜보면 실패의 부담이 없고 정말 쉬운 프로젝트였는데 괜한 부담을 가지고
+                                        힘을 쏟았구나 많이 느끼게 되는 프로젝트이다. Python에 입문하는데 큰 도움이
+                                        되었고, 매주 선임개발자 분에게 코드리뷰를 받으면서 개선할점을 들을 수 있어서
+                                        정말 좋은 경험이었다.
+                                    </p>
+
+
+
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times mr-1"></i>
                                         Close Project
@@ -863,7 +989,7 @@
                 </div>
             </div>
         </div>
-        <!-- Modal 11: -->
+        <!-- Modal 11: 도로위험지수 기계학습 모듈-->
         <div class="portfolio-modal modal fade" id="projectModal11" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -873,15 +999,74 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project Details Go Here-->
-                                    <h2 class="text-uppercase">Project Name</h2>
+                                    <h2 class="text-uppercase">도로위험지수 기계학습 모듈제작</h2>
+                                    <p class="item">
+                                        <table border="1" bordercolor="black" width ="70%" height="100%" align = "center" >
+                                            <tr><!-- 첫번째 줄 시작 -->
+                                                <td style="color:coral;">구분</td>
+                                                <td>팀프로젝트</td>
+                                            </tr><!-- 첫번째 줄 끝 -->
+                                            <tr><!-- 두번째 줄 시작 -->
+                                                <td style="color:coral;">내 역할</td>
+                                                <td>
+                                                    -프로젝트 아이디어 제시(채택됨) <br>
+                                                    -도로위험지수 API 조사 및 데이터마이닝(공동) <br>
+                                                    -SVM 파라미터 튜닝(개인) <br>
+                                                    -SVM 사용 예측기능 구현(개인) <br>
+                                                    -클러스터링 기능구현(개인) <br>
+                                                    -발표자료 제작(공동) <br>
+                                                </td>
+                                            </tr><!-- 두번째 줄 끝 -->
+                                            <tr><!-- 두번째 줄 시작 -->
+                                                <td style="color:coral;">개발기간</td>
+                                                <td>3개월</td>
+                                            </tr><!-- 두번째 줄 끝 -->
+                                            <tr><!-- 두번째 줄 시작 -->
+                                                <td style="color:coral;">사용기술</td>
+                                                <td>
+                                                    Language: Python<br>
+                                                    Module: SVM, KNN, Sklearn, GridsearchCV<br>
+                                                    ETC: Google Colab
+                                                </td>
+                                            </tr><!-- 두번째 줄 끝 -->
+
+                                        </table>
+                                    </p>
+                                    <p>  
+                                        <hr style="border: solid 3px black;">
+                                        <h4 style="color:coral;">[개요]</h4>
+                                        <hr style="border: solid 3px black;">
+                                        도로교통 공단에서 제시하는 도로위험도 지수를 도출하는 모델을 
+                                        기계학습을 통해 대체해보고 개선된 웹어플리케이션을 제시한다.
+                                        <img class="img-fluid d-block mx-auto" src="assets/img/projects/11-img1.PNG" alt="" />
+                                        <img class="img-fluid d-block mx-auto" src="assets/img/projects/11-img2.PNG" alt="" />
+                                    </p>
+                                    <p class="">
+                                        <hr style="border: solid 3px black;">
+                                        <h4 style="color:coral;">[개발내용]</h4>
+                                        <hr style="border: solid 3px black;">
+                                        <img class="img-fluid d-block mx-auto" src="assets/img/projects/11-img3.PNG" alt="" />
+                                        <img class="img-fluid d-block mx-auto" src="assets/img/projects/11-img4.PNG" alt="" />
+                                        <img class="img-fluid d-block mx-auto" src="assets/img/projects/11-img5.PNG" alt="" />
+                                        <img class="img-fluid d-block mx-auto" src="assets/img/projects/11-img6.PNG" alt="" />
+                                        <img class="img-fluid d-block mx-auto" src="assets/img/projects/11-img7.PNG" alt="" />
+                                        <img class="img-fluid d-block mx-auto" src="assets/img/projects/11-img8.PNG" alt="" />
+                                        <img class="img-fluid d-block mx-auto" src="assets/img/projects/11-img9.PNG" alt="" />
+                                        <img class="img-fluid d-block mx-auto" src="assets/img/projects/11-img10.PNG" alt="" />
+                                        <img class="img-fluid d-block mx-auto" src="assets/img/projects/11-img11.PNG" alt="" />
+                                        <img class="img-fluid d-block mx-auto" src="assets/img/projects/11-img12.PNG" alt="" />
+                                        <img class="img-fluid d-block mx-auto" src="assets/img/projects/11-img13.PNG" alt="" />
+                                        <img class="img-fluid d-block mx-auto" src="assets/img/projects/11-img14.PNG" alt="" />
+                                        <img class="img-fluid d-block mx-auto" src="assets/img/projects/11-img15.PNG" alt="" />
+                                        <img class="img-fluid d-block mx-auto" src="assets/img/projects/11-img16.PNG" alt="" />
+                                    
+                                    </p>
+
+
+                                    
                                     <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/06-full.jpg" alt="" />
                                     <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>Date: January 2020</li>
-                                        <li>Client: Window</li>
-                                        <li>Category: Photography</li>
-                                    </ul>
+
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times mr-1"></i>
                                         Close Project
